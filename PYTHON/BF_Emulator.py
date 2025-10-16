@@ -1,6 +1,6 @@
 #########################################################################################################
 #Rentrer le code à exécuter entre les guillemets :
-code=",[>+>+<<-]+++++[>>>+++++++++<<<-]>>>[-<<->>]<<[[-]<+>]<[>>.<<-]>>[-]<<,[>+>+<<-]>[[----------[[-]>.[-]<<,[>+>+<<-]]>]]"
+code=""
 
 
 
@@ -103,4 +103,5 @@ def executecode(inputs,code,actchar,actact,Table,Brackets,result):
 
 if len(code)==0:
     print("Oups, il semblerait que vous n'avez pas rentré de code. Suivez les instructions ligne 2.")
+
 executecode(inputs,code,actchar,actact,Table,Brackets,result)
